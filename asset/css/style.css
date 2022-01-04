@@ -10,11 +10,17 @@ h1 {
 }
 section {
   display: flex;
+  margin-bottom: 150px;
 }
 
 .top-bannar {
   background-image: url(/asset/img/top-banner.png);
   background-repeat: no-repeat;
+}
+.Dream-big {
+  background-image: url(/asset/img/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 .half-width {
@@ -23,8 +29,9 @@ section {
 }
 .half-width img {
   width: 80%;
+  margin-top: 20px;
 }
-.hireme-button {
+.link-button {
   text-decoration: none;
   padding: 10px 40px;
   border-radius: 5px;
